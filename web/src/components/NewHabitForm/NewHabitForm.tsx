@@ -27,10 +27,10 @@ export function NewHabitForm() {
       title,
       weekDays,
     });
-    setTitle('')
-    setWeekDays([])
+    setTitle("");
+    setWeekDays([]);
 
-    alert('Hábito criado com sucesso')
+    alert("Hábito criado com sucesso");
   }
 
   function handleToggleWeekDay(weekDay: number) {

@@ -1,8 +1,6 @@
 import * as Popover from "@radix-ui/react-popover";
-import * as Checkbox from "@radix-ui/react-checkbox";
 import { ProgressBar } from "../ProgressBar/ProgressBar";
 import clsx from "clsx";
-import { Check } from "phosphor-react";
 import dayjs from "dayjs";
 import { HabitsList } from "../HabitsList/HabitsList";
 import { useState } from "react";
